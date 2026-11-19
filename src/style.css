@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; display: grid; place-items: start center; min-height: 100vh; }
+main { width: min(560px, 92vw); padding: 3rem 0; }
+.search { display: flex; gap: .5rem; }
+input { flex: 1; padding: .6rem .8rem; font-size: 1rem; }
+button { padding: .6rem 1rem; font-size: 1rem; cursor: pointer; }
+#result { margin-top: 1.5rem; padding: 1rem 1.25rem; border: 1px solid #8884; border-radius: 8px; }
+.error { color: #c0392b; }
